@@ -1,0 +1,46 @@
+<p>update works!</p>
+<p>userhome works!</p>
+
+
+<div class="container">
+    <h1 class="text-center"> Update Form</h1>
+<form [formGroup]="UpadteForm" (ngSubmit)="UpdateFm()" class="form-group" >
+<div class="mb-3">
+    <label for="fname" class="form-label">First Name</label>
+<input class="form-control" type="text" placeholder="enter yorn first name" formControlName="fname" id="fname">
+
+
+</div>
+
+<div class="mb-3">
+    <label for="lname" class="form-label">Last Name</label>
+<input class="form-control" type="text" placeholder="enter yorn last name" formControlName="lname" id="lname" >
+
+
+</div>
+
+<div class="mb-3">
+    <label for="phone" class="form-label">Last Name</label>
+<input class="form-control" type="text" placeholder="enter yorn last name" formControlName="phone" id="phone" >
+
+
+</div>
+
+
+<div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+<input class="form-control" type="text" placeholder="enter yorn emailaddress" formControlName="email" id="email" >
+
+</div>
+
+
+
+ 
+  <div class="mb-3">
+   <button type="submit" class="btn btn-success">Update</button>
+
+  </div>
+    
+  
+  </form>
+</div>
